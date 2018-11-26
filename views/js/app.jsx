@@ -1,7 +1,7 @@
-const AUTH0_CLIENT_ID = "LqzkaFAyx1phoWSyoHUODKy4Qci2K8IN";
-const AUTH0_DOMAIN = "matteophre.eu.auth0.com";
+const AUTH0_CLIENT_ID = "***";
+const AUTH0_DOMAIN = "***";
 const AUTH0_CALLBACK_URL = location.href;
-const AUTH0_API_AUDIENCE = "https://matteophre.eu.auth0.com/api/v2/";
+const AUTH0_API_AUDIENCE = "***";
 class App extends React.Component {
   parseHash() {
     this.auth0 = new auth0.WebAuth({
