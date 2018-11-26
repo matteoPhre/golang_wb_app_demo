@@ -1,0 +1,23 @@
+{
+  // Usare IntelliSense per informazioni sui possibili attributi.
+  // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+  // Per ulteriori informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${fileDirname}",
+      "env": {
+        "AUTH0_API_CLIENT_SECRET": "Mv5VwG-M5i5Oe_y1DGklxvJad6gv9pJu1qUGa5v5dZ-thNsDSX7tTqE8jly8sMgQ",
+        "AUTH0_CLIENT_ID": "LqzkaFAyx1phoWSyoHUODKy4Qci2K8IN",
+        "AUTH0_DOMAIN": "matteophre.eu.auth0.com",
+        "AUTH0_DOMAIN_ISSUER": "https://matteophre.eu.auth0.com/",
+        "AUTH0_API_AUDIENCE": "https://matteophre.eu.auth0.com/api/v2/"
+      },
+      "args": []
+    }
+  ]
+}
