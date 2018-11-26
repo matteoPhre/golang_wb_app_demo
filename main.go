@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"os"
 	"strconv"
-
 	jwtmiddleware "github.com/auth0/go-jwt-middleware"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/contrib/static"
